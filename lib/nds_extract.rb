@@ -16,6 +16,7 @@ def directors_totals(nds)
     ret_hash[nds[index][:name]]= sum    
     index += 1
   end
+  ret_hash
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
